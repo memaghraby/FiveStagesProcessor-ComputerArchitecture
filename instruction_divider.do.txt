@@ -1,0 +1,29 @@
+vsim -gui work.instruction_divider
+add wave -position insertpoint  \
+sim:/instruction_divider/n \
+sim:/instruction_divider/Clk \
+sim:/instruction_divider/Sel \
+sim:/instruction_divider/Input \
+sim:/instruction_divider/Finish \
+sim:/instruction_divider/Output
+force -freeze sim:/instruction_divider/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/instruction_divider/Input 16'h1616 0
+run
+force -freeze sim:/instruction_divider/Sel 00 0
+force -freeze sim:/instruction_divider/Input 16'h3232 0
+run
+force -freeze sim:/instruction_divider/Sel 01 0
+force -freeze sim:/instruction_divider/Input 16'haaaa 0
+run
+force -freeze sim:/instruction_divider/Sel 11 0
+force -freeze sim:/instruction_divider/Input 16'h2323 0
+run
+force -freeze sim:/instruction_divider/Sel 01 0
+force -freeze sim:/instruction_divider/Input 16'hbbbb 0
+run
+force -freeze sim:/instruction_divider/Sel 11 0
+force -freeze sim:/instruction_divider/Input 16'h1616 0
+run
+force -freeze sim:/instruction_divider/Sel 00 0
+force -freeze sim:/instruction_divider/Input 16'h6161 0
+run

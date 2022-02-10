@@ -1,0 +1,177 @@
+{C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/counter_reg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/counter_reg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity counter_reg
+-- Compiling architecture a_counter_reg of counter_reg
+
+} {} {}} {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/CCR.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Z50\Desktop\CUFE\Arch\project\pipelined processor with hazards\CCR.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CCR
+-- Compiling architecture a_CCR of CCR
+
+} {} {}} {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/parta.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/parta.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity parta
+-- Compiling architecture myparta of parta
+
+} {} {}} {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/control_unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/control_unit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity control_unit
+-- Compiling architecture a_control_unit of control_unit
+
+} {} {}} {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/partb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/partb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity partb
+-- Compiling architecture archb of partb
+
+} {} {}} {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/3X8DECODER.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/3X8DECODER.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg_decoder
+-- Compiling architecture A_REG_DECODER of reg_decoder
+
+} {} {}} {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/memory.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/memory.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory
+-- Compiling architecture syncrama of memory
+
+} {} {}} {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/partc.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/partc.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity partc
+-- Compiling architecture archc of partc
+
+} {} {}} {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/ALU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/ALU.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALU
+-- Compiling architecture struct of ALU
+
+} {} {}} {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/data_memory.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/data_memory.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity dataMemory
+-- Compiling architecture syncrama of dataMemory
+
+} {} {}} {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/forwarding_unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Z50\Desktop\CUFE\Arch\project\pipelined processor with hazards\forwarding_unit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity forwarding_unit
+-- Compiling architecture a_forwarding_unit of forwarding_unit
+
+} {} {}} {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/2X4DECODER.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/2X4DECODER.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_decoder
+-- Compiling architecture A_DECODER of my_decoder
+
+} {} {}} {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/register_file.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/register_file.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity register_file
+-- Compiling architecture a_register_file of register_file
+
+} {} {}} {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/my_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/my_adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_adder
+-- Compiling architecture a_my_adder of my_adder
+
+} {} {}} {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/register.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/register.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_nDFF
+-- Compiling architecture a_my_nDFF of my_nDFF
+
+} {} {}} {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/hazard_detection_unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Z50\Desktop\CUFE\Arch\project\pipelined processor with hazards\hazard_detection_unit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity hazard_detection_unit
+-- Compiling architecture a_hazard_detection_unit of hazard_detection_unit
+
+} {} {}} {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/instruction_divider.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/instruction_divider.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity instruction_divider
+-- Compiling architecture a_instruction_divider of instruction_divider
+
+} {} {}} {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/PC_reg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/PC_reg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity PC_reg
+-- Compiling architecture a_PC_reg of PC_reg
+
+} {} {}} {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/processor.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Z50\Desktop\CUFE\Arch\project\pipelined processor with hazards\processor.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity processor
+-- Compiling architecture a_processor of processor
+
+} {} {}} {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/full_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/full_adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fulladder
+-- Compiling architecture a_fulladder of fulladder
+
+} {} {}} {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/sp_counter.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/sp_counter.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sp_counter
+-- Compiling architecture a_sp_counter of sp_counter
+
+} {} {}}

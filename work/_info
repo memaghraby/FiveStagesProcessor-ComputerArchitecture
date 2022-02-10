@@ -1,0 +1,845 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/intelFPGA
+Ealu
+Z0 w1589845330
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards
+Z4 8C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/ALU.vhd
+Z5 FC:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/ALU.vhd
+l0
+L4
+Vfe@QY^jzNQ^dZPjz`>gJL3
+!s100 =d2OY;a@QkcnbZO>TO@eS0
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1591038174
+!i10b 1
+Z8 !s108 1591038174.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/ALU.vhd|
+Z10 !s107 C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/ALU.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Astruct
+R1
+R2
+DEx4 work 3 alu 0 22 fe@QY^jzNQ^dZPjz`>gJL3
+l50
+L16
+V9z9059HTdUo5bSn9hiOk>1
+!s100 GN`NJ4l@7:MC<@l5P2J]?0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eccr
+Z13 w1591035823
+R1
+R2
+R3
+Z14 8C:\Users\Z50\Desktop\CUFE\Arch\project\pipelined processor with hazards\CCR.vhd
+Z15 FC:\Users\Z50\Desktop\CUFE\Arch\project\pipelined processor with hazards\CCR.vhd
+l0
+L4
+Vk?hXOXl^?CabbD<JJ:XYK2
+!s100 B_:zz:5<P;iYQA89EhNc12
+R6
+32
+Z16 !s110 1591038175
+!i10b 1
+Z17 !s108 1591038175.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Z50\Desktop\CUFE\Arch\project\pipelined processor with hazards\CCR.vhd|
+Z19 !s107 C:\Users\Z50\Desktop\CUFE\Arch\project\pipelined processor with hazards\CCR.vhd|
+!i113 1
+R11
+R12
+Aa_ccr
+R1
+R2
+DEx4 work 3 ccr 0 22 k?hXOXl^?CabbD<JJ:XYK2
+l25
+L15
+VEd^LhhRhI^>a;PCiT]PWR2
+!s100 <YP^^Y@ZD@9mf9B4W[9[E2
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Econtrol_unit
+Z20 w1589946516
+R1
+R2
+R3
+Z21 8C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/control_unit.vhd
+Z22 FC:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/control_unit.vhd
+l0
+L4
+Vl<VZGGZD_aG74>Vn@:eeo1
+!s100 QLFlB=g3`5=>JV5V`FdZN2
+R6
+32
+R16
+!i10b 1
+R17
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/control_unit.vhd|
+Z24 !s107 C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/control_unit.vhd|
+!i113 1
+R11
+R12
+Aa_control_unit
+R1
+R2
+DEx4 work 12 control_unit 0 22 l<VZGGZD_aG74>Vn@:eeo1
+l13
+L12
+VHWianglZl;]N`^8IfbimR1
+!s100 Hen[@X]>7b<=B9l7]6O9:0
+R6
+32
+R16
+!i10b 1
+R17
+R23
+R24
+!i113 1
+R11
+R12
+Ecounter_reg
+Z25 w1589675895
+R1
+R2
+R3
+Z26 8C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/counter_reg.vhd
+Z27 FC:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/counter_reg.vhd
+l0
+L4
+V?MzdMl:OJmc4SeiJUIjiQ2
+!s100 zXzOGbZjMa5jaL_ESTj`C3
+R6
+32
+Z28 !s110 1591038176
+!i10b 1
+R17
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/counter_reg.vhd|
+Z30 !s107 C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/counter_reg.vhd|
+!i113 1
+R11
+R12
+Aa_counter_reg
+R1
+R2
+DEx4 work 11 counter_reg 0 22 ?MzdMl:OJmc4SeiJUIjiQ2
+l12
+L11
+V529;77124gc;WEgA>J9lE1
+!s100 6k1N_amQDY<za2gKFWhZz0
+R6
+32
+R28
+!i10b 1
+R17
+R29
+R30
+!i113 1
+R11
+R12
+Edatamemory
+Z31 w1589927399
+Z32 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z33 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z34 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R2
+R3
+Z35 8C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/data_memory.vhd
+Z36 FC:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/data_memory.vhd
+l0
+L6
+VHiSJDRdf>XPB:7fhCYeQ]0
+!s100 XKO0?[e=ObB9BgIB7:fac2
+R6
+32
+R28
+!i10b 1
+Z37 !s108 1591038176.000000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/data_memory.vhd|
+Z39 !s107 C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/data_memory.vhd|
+!i113 1
+R11
+R12
+Asyncrama
+R32
+R33
+R34
+R1
+R2
+DEx4 work 10 datamemory 0 22 HiSJDRdf>XPB:7fhCYeQ]0
+l26
+L19
+VbD5W2k=^5k^^T1gX1fBE`1
+!s100 PcXV47b3_UfdNlJc[7ZVf3
+R6
+32
+R28
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R11
+R12
+Eforwarding_unit
+Z40 w1590016356
+R1
+R2
+R3
+Z41 8C:\Users\Z50\Desktop\CUFE\Arch\project\pipelined processor with hazards\forwarding_unit.vhd
+Z42 FC:\Users\Z50\Desktop\CUFE\Arch\project\pipelined processor with hazards\forwarding_unit.vhd
+l0
+L4
+V?6I8oUSYPom6Bn>]9Z1I]1
+!s100 5ZTnVgLh_GL9ZMDK=AW763
+R6
+32
+R28
+!i10b 1
+R37
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Z50\Desktop\CUFE\Arch\project\pipelined processor with hazards\forwarding_unit.vhd|
+Z44 !s107 C:\Users\Z50\Desktop\CUFE\Arch\project\pipelined processor with hazards\forwarding_unit.vhd|
+!i113 1
+R11
+R12
+Aa_forwarding_unit
+R1
+R2
+DEx4 work 15 forwarding_unit 0 22 ?6I8oUSYPom6Bn>]9Z1I]1
+l12
+L11
+V6TO51Ue@O96oX7BG4<8cB0
+!s100 Q:kg1oHogHJbh2gUT;54K1
+R6
+32
+R28
+!i10b 1
+R37
+R43
+R44
+!i113 1
+R11
+R12
+Efulladder
+Z45 w1589570615
+R1
+R2
+R3
+Z46 8C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/full_adder.vhd
+Z47 FC:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/full_adder.vhd
+l0
+L4
+VWR;i55oS?QoV<bFbn;l?b2
+!s100 =4A4:9Oz0LR0P@jY9H];M2
+R6
+32
+R28
+!i10b 1
+R37
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/full_adder.vhd|
+Z49 !s107 C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/full_adder.vhd|
+!i113 1
+R11
+R12
+Aa_fulladder
+R1
+R2
+DEx4 work 9 fulladder 0 22 WR;i55oS?QoV<bFbn;l?b2
+l20
+L13
+Vkc=U:=4W;SGnoC5=PI=c>0
+!s100 ^Q>nCzBf@bHMH`U@NYgOd2
+R6
+32
+R28
+!i10b 1
+R37
+R48
+R49
+!i113 1
+R11
+R12
+Ehazard_detection_unit
+Z50 w1591041324
+R1
+R2
+R3
+Z51 8C:\Users\Z50\Desktop\CUFE\Arch\project\pipelined processor with hazards\hazard_detection_unit.vhd
+Z52 FC:\Users\Z50\Desktop\CUFE\Arch\project\pipelined processor with hazards\hazard_detection_unit.vhd
+l0
+L4
+VbFm0OMkKbG^1amOVaWK4O3
+!s100 83Lh_g]:[EWNNeAnHa`[m3
+R6
+32
+Z53 !s110 1591041331
+!i10b 1
+Z54 !s108 1591041330.000000
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Z50\Desktop\CUFE\Arch\project\pipelined processor with hazards\hazard_detection_unit.vhd|
+Z56 !s107 C:\Users\Z50\Desktop\CUFE\Arch\project\pipelined processor with hazards\hazard_detection_unit.vhd|
+!i113 1
+R11
+R12
+Aa_hazard_detection_unit
+R1
+R2
+DEx4 work 21 hazard_detection_unit 0 22 bFm0OMkKbG^1amOVaWK4O3
+l15
+L11
+V5=T4BcCVHD5DbobIA9c8=2
+!s100 0aCkA]l02Bg5R3^mknJ0:1
+R6
+32
+R53
+!i10b 1
+R54
+R55
+R56
+!i113 1
+R11
+R12
+Einstruction_divider
+Z57 w1590102537
+R1
+R2
+R3
+Z58 8C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/instruction_divider.vhd
+Z59 FC:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/instruction_divider.vhd
+l0
+L4
+V3V9:e`6aTHY4>W4nG1lMz3
+!s100 2gG>RS?]kmhjQaR>GOP@V2
+R6
+32
+Z60 !s110 1591038177
+!i10b 1
+Z61 !s108 1591038177.000000
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/instruction_divider.vhd|
+Z63 !s107 C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/instruction_divider.vhd|
+!i113 1
+R11
+R12
+Aa_instruction_divider
+R1
+R2
+DEx4 work 19 instruction_divider 0 22 3V9:e`6aTHY4>W4nG1lMz3
+l14
+L13
+VCaOzQh92Z<b6K52N98>Mb1
+!s100 7IA8co40=GSgbB]hdbZgM0
+R6
+32
+R60
+!i10b 1
+R61
+R62
+R63
+!i113 1
+R11
+R12
+Ememory
+Z64 w1589579124
+R32
+R1
+R2
+R3
+Z65 8C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/memory.vhd
+Z66 FC:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/memory.vhd
+l0
+L5
+VVj]4fPYI:jb7nSelU>_LJ1
+!s100 OhOaL=1OoQPBSPb8Y000W3
+R6
+32
+R60
+!i10b 1
+R61
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/memory.vhd|
+Z68 !s107 C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/memory.vhd|
+!i113 1
+R11
+R12
+Asyncrama
+R32
+R1
+R2
+DEx4 work 6 memory 0 22 Vj]4fPYI:jb7nSelU>_LJ1
+l16
+L11
+VAn]S5@4zWKHYI740jgBeS2
+!s100 Ffh:c157d6ccKNA[]G`lE2
+R6
+32
+R60
+!i10b 1
+R61
+R67
+R68
+!i113 1
+R11
+R12
+Emy_adder
+R45
+R1
+R2
+R3
+Z69 8C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/my_adder.vhd
+Z70 FC:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/my_adder.vhd
+l0
+L4
+VFjlMaf=9aFlNWPMnMXH?k3
+!s100 A5lJZfMh@V_I]hj`4ZSML1
+R6
+32
+R60
+!i10b 1
+R61
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/my_adder.vhd|
+Z72 !s107 C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/my_adder.vhd|
+!i113 1
+R11
+R12
+Aa_my_adder
+R1
+R2
+DEx4 work 8 my_adder 0 22 FjlMaf=9aFlNWPMnMXH?k3
+l10
+L9
+VEOP9;;8K^;kWb:D@aED0N1
+!s100 GNi^[i0bJH4Ed:4A3E4hd2
+R6
+32
+R60
+!i10b 1
+R61
+R71
+R72
+!i113 1
+R11
+R12
+Emy_decoder
+Z73 w1589815490
+R1
+R2
+R3
+Z74 8C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/2X4DECODER.vhd
+Z75 FC:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/2X4DECODER.vhd
+l0
+L4
+VGWH?5>X3L[1bW=3b<e0U_3
+!s100 LF][QZkC5kO5IBbFgD<Y?2
+R6
+32
+!s110 1591038172
+!i10b 1
+Z76 !s108 1591038172.000000
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/2X4DECODER.vhd|
+Z78 !s107 C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/2X4DECODER.vhd|
+!i113 1
+R11
+R12
+Aa_decoder
+R1
+R2
+DEx4 work 10 my_decoder 0 22 GWH?5>X3L[1bW=3b<e0U_3
+l11
+L10
+VFNHeX<o9Fjmla0kPYfXdS2
+!s100 H?H?:G0CV8M9DCQ4R>E6C3
+R6
+32
+Z79 !s110 1591038173
+!i10b 1
+R76
+R77
+R78
+!i113 1
+R11
+R12
+Emy_ndff
+Z80 w1589653087
+R1
+R2
+R3
+Z81 8C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/register.vhd
+Z82 FC:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/register.vhd
+l0
+L4
+VZzLA?b6;z91IiS_@YBeSO2
+!s100 ld6L7SJ=YizE9^dfbPk3d2
+R6
+32
+Z83 !s110 1591038178
+!i10b 1
+Z84 !s108 1591038178.000000
+Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/register.vhd|
+Z86 !s107 C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/register.vhd|
+!i113 1
+R11
+R12
+Aa_my_ndff
+R1
+R2
+DEx4 work 7 my_ndff 0 22 ZzLA?b6;z91IiS_@YBeSO2
+l12
+L11
+VARIN1czd7Q:2zQ83T=?G81
+!s100 Bk4`bO:PMREZ_RJ]E@[7Q0
+R6
+32
+R83
+!i10b 1
+R84
+R85
+R86
+!i113 1
+R11
+R12
+Eparta
+R45
+R1
+R2
+R3
+Z87 8C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/parta.vhd
+Z88 FC:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/parta.vhd
+l0
+L4
+ViWjjOOMh`RZW8NGn4a;Re0
+!s100 ;4hT>4;KzUOP=0<R?N_^93
+R6
+32
+R60
+!i10b 1
+R61
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/parta.vhd|
+Z90 !s107 C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/parta.vhd|
+!i113 1
+R11
+R12
+Amyparta
+R1
+R2
+DEx4 work 5 parta 0 22 iWjjOOMh`RZW8NGn4a;Re0
+l24
+L14
+VOG?39Yd?4]7?68Iz7cf8A3
+!s100 lL8[njeZLLio:4YgiVbRS1
+R6
+32
+R60
+!i10b 1
+R61
+R89
+R90
+!i113 1
+R11
+R12
+Epartb
+Z91 w1589576118
+R1
+R2
+R3
+Z92 8C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/partb.vhd
+Z93 FC:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/partb.vhd
+l0
+L4
+Vh3b4D0P9eIjRjJ9BhUd673
+!s100 KTMGzQb7SDkgd>7C0aAL40
+R6
+32
+R83
+!i10b 1
+R61
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/partb.vhd|
+Z95 !s107 C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/partb.vhd|
+!i113 1
+R11
+R12
+Aarchb
+R1
+R2
+DEx4 work 5 partb 0 22 h3b4D0P9eIjRjJ9BhUd673
+l23
+L13
+V]Vhn7gL6`=:OW2><YRcT;2
+!s100 gzDn39H;bh`e]B`;cmNGX2
+R6
+32
+R83
+!i10b 1
+R61
+R94
+R95
+!i113 1
+R11
+R12
+Epartc
+R45
+R32
+R1
+R2
+R3
+Z96 8C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/partc.vhd
+Z97 FC:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/partc.vhd
+l0
+L5
+V^l<di@158B3i9mFEcBX1Y3
+!s100 _LhTe]mXOlLajlfJdDieM3
+R6
+32
+R83
+!i10b 1
+R84
+Z98 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/partc.vhd|
+Z99 !s107 C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/partc.vhd|
+!i113 1
+R11
+R12
+Aarchc
+R32
+R1
+R2
+DEx4 work 5 partc 0 22 ^l<di@158B3i9mFEcBX1Y3
+l16
+L15
+VLjhCzSeoHdL3QmeY9CSG40
+!s100 :[EiWJlLbKdDo@WRlP?<i3
+R6
+32
+R83
+!i10b 1
+R84
+R98
+R99
+!i113 1
+R11
+R12
+Epc_reg
+Z100 w1590096777
+R1
+R2
+R3
+Z101 8C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/PC_reg.vhd
+Z102 FC:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/PC_reg.vhd
+l0
+L4
+VY`?9n?nzRlfM<:7]:EXNX2
+!s100 iKzn1ozOXLWQbQ^kT7HNO2
+R6
+32
+Z103 !s110 1591038179
+!i10b 1
+Z104 !s108 1591038179.000000
+Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/PC_reg.vhd|
+Z106 !s107 C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/PC_reg.vhd|
+!i113 1
+R11
+R12
+Aa_pc_reg
+R1
+R2
+DEx4 work 6 pc_reg 0 22 Y`?9n?nzRlfM<:7]:EXNX2
+l12
+L11
+V5^nDP:]nbDcc:GZ8>`d[o0
+!s100 F1PcOmf8Y5VaC87cVFLZF0
+R6
+32
+R103
+!i10b 1
+R104
+R105
+R106
+!i113 1
+R11
+R12
+Eprocessor
+Z107 w1591045212
+R32
+R33
+R34
+R1
+R2
+R3
+Z108 8C:\Users\Z50\Desktop\CUFE\Arch\project\pipelined processor with hazards\processor.vhd
+Z109 FC:\Users\Z50\Desktop\CUFE\Arch\project\pipelined processor with hazards\processor.vhd
+l0
+L6
+VG=M9<DUfkP:e@l3^Pnge83
+!s100 B8eU2ZFNI:]AlDAVVeRe?3
+R6
+32
+Z110 !s110 1591045301
+!i10b 1
+Z111 !s108 1591045300.000000
+Z112 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Z50\Desktop\CUFE\Arch\project\pipelined processor with hazards\processor.vhd|
+Z113 !s107 C:\Users\Z50\Desktop\CUFE\Arch\project\pipelined processor with hazards\processor.vhd|
+!i113 1
+R11
+R12
+Aa_processor
+R32
+R33
+R34
+R1
+R2
+Z114 DEx4 work 9 processor 0 22 G=M9<DUfkP:e@l3^Pnge83
+l135
+L14
+V_AEfI^l:7ERG9MhH922he0
+!s100 XBh_8k=Pi5kHAh7m_aag63
+R6
+32
+R110
+!i10b 1
+R111
+R112
+R113
+!i113 1
+R11
+R12
+Ereg_decoder
+Z115 w1589404938
+R1
+R2
+R3
+Z116 8C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/3X8DECODER.vhd
+Z117 FC:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/3X8DECODER.vhd
+l0
+L4
+Va1W7=iAkhZDY?;1g87QO<3
+!s100 i3j;TUCoNL2U=;PzeS7;80
+R6
+32
+R79
+!i10b 1
+Z118 !s108 1591038173.000000
+Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/3X8DECODER.vhd|
+Z120 !s107 C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/3X8DECODER.vhd|
+!i113 1
+R11
+R12
+Aa_reg_decoder
+R1
+R2
+DEx4 work 11 reg_decoder 0 22 a1W7=iAkhZDY?;1g87QO<3
+l11
+L10
+VjHe>lA@BkD=1[3MY4NKZ^2
+!s100 3[DPKKPk1[E_ojUQnOMfc2
+R6
+32
+R79
+!i10b 1
+R118
+R119
+R120
+!i113 1
+R11
+R12
+Eregister_file
+Z121 w1589415768
+R1
+R2
+R3
+Z122 8C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/register_file.vhd
+Z123 FC:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/register_file.vhd
+l0
+L4
+VXRa<SHWYHdl4I`7CB;N`C0
+!s100 _^eAJTWSdAbEjdlOJOLd@0
+R6
+32
+R83
+!i10b 1
+R84
+Z124 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/register_file.vhd|
+Z125 !s107 C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/register_file.vhd|
+!i113 1
+R11
+R12
+Aa_register_file
+R1
+R2
+DEx4 work 13 register_file 0 22 XRa<SHWYHdl4I`7CB;N`C0
+l34
+L16
+VOZ:MBAZbfQC`N>z1Xh1Pi0
+!s100 OZ`dWA8l?AnW@L9GV?EeP2
+R6
+32
+R83
+!i10b 1
+R84
+R124
+R125
+!i113 1
+R11
+R12
+Esp_counter
+Z126 w1589676419
+R1
+R2
+R3
+Z127 8C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/sp_counter.vhd
+Z128 FC:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/sp_counter.vhd
+l0
+L4
+VbF;RRJ7lCfT37C;4`9hE@0
+!s100 mK01;IHSnfnVkP9Zf]6^l0
+R6
+32
+R103
+!i10b 1
+R84
+Z129 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/sp_counter.vhd|
+Z130 !s107 C:/Users/Z50/Desktop/CUFE/Arch/project/pipelined processor with hazards/sp_counter.vhd|
+!i113 1
+R11
+R12
+Aa_sp_counter
+R1
+R2
+DEx4 work 10 sp_counter 0 22 bF;RRJ7lCfT37C;4`9hE@0
+l31
+L11
+VQ516_YQiQBPUdIB`OM82C0
+!s100 HQK@AMz?j>HQH[gS]Q=003
+R6
+32
+R103
+!i10b 1
+R84
+R129
+R130
+!i113 1
+R11
+R12

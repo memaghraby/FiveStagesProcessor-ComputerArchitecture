@@ -1,0 +1,66 @@
+vsim -gui work.register_file
+add wave -position insertpoint  \
+sim:/register_file/n \
+sim:/register_file/Clk \
+sim:/register_file/Rst \
+sim:/register_file/RegRead \
+sim:/register_file/RegWrite1 \
+sim:/register_file/RegWrite2 \
+sim:/register_file/ReadAddr1 \
+sim:/register_file/ReadAddr2 \
+sim:/register_file/WriteAddr1 \
+sim:/register_file/WriteData1 \
+sim:/register_file/WriteAddr2 \
+sim:/register_file/WriteData2 \
+sim:/register_file/ReadData1 \
+sim:/register_file/ReadData2 \
+sim:/register_file/S1 \
+sim:/register_file/S2 \
+sim:/register_file/D1 \
+sim:/register_file/D2 \
+sim:/register_file/Q0 \
+sim:/register_file/Q1 \
+sim:/register_file/Q2 \
+sim:/register_file/Q3 \
+sim:/register_file/Q4 \
+sim:/register_file/Q5 \
+sim:/register_file/Q6 \
+sim:/register_file/Q7
+force -freeze sim:/register_file/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/register_file/Rst 0 0
+force -freeze sim:/register_file/RegRead 0 0
+force -freeze sim:/register_file/RegWrite1 1 0
+force -freeze sim:/register_file/RegWrite2 1 0
+force -freeze sim:/register_file/WriteAddr1 000 0
+force -freeze sim:/register_file/WriteData1 32'h00000000 0
+force -freeze sim:/register_file/WriteAddr2 001 0
+force -freeze sim:/register_file/WriteData2 32'h00000001 0
+run
+force -freeze sim:/register_file/WriteAddr1 010 0
+force -freeze sim:/register_file/WriteData1 32'h00000002 0
+force -freeze sim:/register_file/WriteAddr2 011 0
+force -freeze sim:/register_file/WriteData2 32'h00000003 0
+run
+force -freeze sim:/register_file/WriteAddr1 100 0
+force -freeze sim:/register_file/WriteData1 32'h00000004 0
+force -freeze sim:/register_file/WriteAddr2 101 0
+force -freeze sim:/register_file/WriteData2 32'h00000005 0
+run
+force -freeze sim:/register_file/WriteAddr1 110 0
+force -freeze sim:/register_file/WriteData1 32'h00000006 0
+force -freeze sim:/register_file/WriteAddr2 111 0
+force -freeze sim:/register_file/WriteData2 32'h00000007 0
+run
+force -freeze sim:/register_file/RegWrite2 0 0
+force -freeze sim:/register_file/WriteData2 32'hFFFFFFFF 0
+run
+force -freeze sim:/register_file/RegRead 1 0
+force -freeze sim:/register_file/ReadAddr1 010 0
+force -freeze sim:/register_file/ReadAddr2 101 0
+run
+force -freeze sim:/register_file/RegWrite2 1 0
+force -freeze sim:/register_file/WriteAddr1 110 0
+force -freeze sim:/register_file/WriteAddr2 110 0
+force -freeze sim:/register_file/WriteData1 32'h00000006 0
+force -freeze sim:/register_file/WriteData2 32'h00000003 0
+run

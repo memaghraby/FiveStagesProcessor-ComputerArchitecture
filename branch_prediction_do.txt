@@ -1,0 +1,249 @@
+vsim work.processor
+add wave -position insertpoint  \
+sim:/processor/Clk
+add wave -position insertpoint  \
+sim:/processor/Int
+add wave -position insertpoint  \
+sim:/processor/Rst
+add wave -position insertpoint  \
+sim:/processor/OutPort
+add wave -position insertpoint  \
+sim:/processor/InPort
+add wave -position insertpoint  \
+sim:/processor/FetchedInstruction
+add wave -position insertpoint  \
+sim:/processor/PCOut
+add wave -position insertpoint  \
+sim:/processor/SPOut
+add wave -position insertpoint  \
+sim:/processor/RF/Q0 \
+sim:/processor/RF/Q1 \
+sim:/processor/RF/Q2 \
+sim:/processor/RF/Q3 \
+sim:/processor/RF/Q4 \
+sim:/processor/RF/Q5 \
+sim:/processor/RF/Q6 \
+sim:/processor/RF/Q7
+add wave -position insertpoint  \
+sim:/processor/CCRx/CF \
+sim:/processor/CCRx/NF \
+sim:/processor/CCRx/ZF
+force -freeze sim:/processor/Clk 1 0, 0 {50 ps} -r 100
+mem load -filltype value -filldata 000A -fillradix hexadecimal /processor/DM/ram(0)
+mem load -filltype value -filldata {0000 } -fillradix hexadecimal /processor/DM/ram(1)
+mem load -filltype value -filldata  0064 -fillradix hexadecimal /processor/DM/ram(2)
+mem load -filltype value -filldata {0000 } -fillradix hexadecimal /processor/DM/ram(3)
+force -freeze sim:/processor/Rst 1 0
+run
+force -freeze sim:/processor/Rst 0 0
+mem load -filltype value -filldata {1001001000000000  } -fillradix binary /processor/IM/memory(10)
+mem load -filltype value -filldata {0000000000001010 } -fillradix binary /processor/IM/memory(11)
+mem load -filltype value -filldata {1001000000000000  } -fillradix binary /processor/IM/memory(12)
+mem load -filltype value -filldata {0000000000000000 } -fillradix binary /processor/IM/memory(13)
+mem load -filltype value -filldata {1001000100000000 } -fillradix binary /processor/IM/memory(14)
+mem load -filltype value -filldata {0000000001010000 } -fillradix binary /processor/IM/memory(15)
+mem load -filltype value -filldata {1001001100000000 } -fillradix binary /processor/IM/memory(16)
+mem load -filltype value -filldata {0000000000100000 } -fillradix binary /processor/IM/memory(17)
+mem load -filltype value -filldata {1001010000000000 } -fillradix binary /processor/IM/memory(18)
+mem load -filltype value -filldata {0000000000000010 } -fillradix binary /processor/IM/memory(19)
+mem load -filltype value -filldata {1100001100000000 } -fillradix binary /processor/IM/memory(20)
+mem load -filltype value -filldata {0101100001010100  } -fillradix binary /processor/IM/memory(32)
+mem load -filltype value -filldata {1010100100000000 } -fillradix binary /processor/IM/memory(33)
+mem load -filltype value -filldata {0100110010010000 } -fillradix binary /processor/IM/memory(34)
+mem load -filltype value -filldata {0011010000000000 } -fillradix binary /processor/IM/memory(35)
+mem load -filltype value -filldata {0010000000000000 } -fillradix binary /processor/IM/memory(36)
+mem load -filltype value -filldata {1100001100000000 } -fillradix binary /processor/IM/memory(37)
+mem load -filltype value -filldata {1001000000000000 } -fillradix binary /processor/IM/memory(80)
+mem load -filltype value -filldata {0000000000000000  } -fillradix binary /processor/IM/memory(81)
+mem load -filltype value -filldata {1001001000000000 } -fillradix binary /processor/IM/memory(82)
+mem load -filltype value -filldata {0000000000001000 } -fillradix binary /processor/IM/memory(83)
+mem load -filltype value -filldata {1001001100000000 } -fillradix binary /processor/IM/memory(84)
+mem load -filltype value -filldata {0000000001100000 } -fillradix binary /processor/IM/memory(85)
+mem load -filltype value -filldata {1001010000000000 } -fillradix binary /processor/IM/memory(86)
+mem load -filltype value -filldata {0000000000000011 } -fillradix binary /processor/IM/memory(87)
+mem load -filltype value -filldata {1100001100000000 } -fillradix binary /processor/IM/memory(88)
+mem load -filltype value -filldata 0100110010010000 -fillradix binary /processor/IM/memory(96)
+mem load -filltype value -filldata 0011010000000000 -fillradix binary /processor/IM/memory(97)
+mem load -filltype value -filldata 0010000000000000 -fillradix binary /processor/IM/memory(98)
+mem load -filltype value -filldata 0110000001010100 -fillradix binary /processor/IM/memory(99)
+mem load -filltype value -filldata 1010101100000000 -fillradix binary /processor/IM/memory(100)
+mem load -filltype value -filldata 0010010000000000 -fillradix binary /processor/IM/memory(101)
+mem load -filltype value -filldata 0011010000000000 -fillradix binary /processor/IM/memory(102)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

@@ -1,0 +1,110 @@
+vsim -gui work.ALU
+
+add wave -noupdate -radix hexadecimal /ALU/n 
+add wave -noupdate -radix hexadecimal /ALU/sel0 
+add wave -noupdate -radix hexadecimal /ALU/sel1 
+add wave -noupdate -radix hexadecimal /ALU/sel2 
+add wave -noupdate -radix hexadecimal /ALU/sel3 
+add wave -noupdate -radix hexadecimal /ALU/in1 
+add wave -noupdate -radix hexadecimal /ALU/in2 
+add wave -noupdate -radix hexadecimal /ALU/Carryout 
+add wave -noupdate -radix hexadecimal /ALU/Shift 
+add wave -noupdate -radix hexadecimal /ALU/output 
+add wave -noupdate -radix hexadecimal /ALU/x0 
+add wave -noupdate -radix hexadecimal /ALU/x1 
+add wave -noupdate -radix hexadecimal /ALU/xa
+add wave -noupdate -radix hexadecimal /ALU/c0 
+add wave -noupdate -radix hexadecimal /ALU/c1 
+add wave -noupdate -radix hexadecimal /ALU/ca
+
+
+
+
+force -freeze sim:/ALU/sel0 0 0
+force -freeze sim:/ALU/sel1 0 0
+force -freeze sim:/ALU/sel2 0 0
+force -freeze sim:/ALU/sel3 0 0
+force -freeze sim:/ALU/in1 00000000000000001100000001010101 0
+force -freeze sim:/ALU/in2 00000000000000000000000000000000 0
+run
+
+
+
+force -freeze sim:/ALU/sel0 1 0
+force -freeze sim:/ALU/sel1 0 0
+force -freeze sim:/ALU/in1 00000000000000000000000001010101 0
+force -freeze sim:/ALU/in2 00000000000000001001110101010101 0
+run
+
+
+
+force -freeze sim:/ALU/sel0 0 0
+force -freeze sim:/ALU/sel1 1 0
+force -freeze sim:/ALU/in1 00000000000000000000000000001100 0
+force -freeze sim:/ALU/in2 00000000000000000000000000000101 0
+run
+
+
+
+force -freeze sim:/ALU/sel0 1 0
+force -freeze sim:/ALU/sel1 1 0
+force -freeze sim:/ALU/in1 11110000000000000000000000001100 0
+run
+
+
+
+force -freeze sim:/ALU/sel0 0 0
+force -freeze sim:/ALU/sel1 0 0
+force -freeze sim:/ALU/sel2 1 0
+force -freeze sim:/ALU/sel3 0 0
+force -freeze sim:/ALU/in1 00000000000000111000000001010101 0
+force -freeze sim:/ALU/in2 11111110000000111000000001010101 0
+run
+
+
+
+force -freeze sim:/ALU/sel0 1 0
+force -freeze sim:/ALU/sel1 0 0
+force -freeze sim:/ALU/in1 00000000000000000000111100001111 0
+force -freeze sim:/ALU/in2 00000011110000000000111100000000 0
+run
+
+
+
+force -freeze sim:/ALU/sel0 0 0
+force -freeze sim:/ALU/sel1 1 0
+force -freeze sim:/ALU/in1 00000000000000000001111111111111 0
+run
+
+
+
+force -freeze sim:/ALU/sel0 1 0
+force -freeze sim:/ALU/sel1 1 0
+force -freeze sim:/ALU/in1 10101010100000000101010101010101 0
+run
+
+
+
+force -freeze sim:/ALU/sel0 0 0
+force -freeze sim:/ALU/sel1 0 0
+force -freeze sim:/ALU/sel2 0 0
+force -freeze sim:/ALU/sel3 1 0
+force -freeze sim:/ALU/in1 00000000000000000000000001010101 0
+force -freeze sim:/ALU/Shift 000011 0
+run
+
+force -freeze sim:/ALU/Shift 000110 0
+run
+
+
+force -freeze sim:/ALU/sel0 1 0
+force -freeze sim:/ALU/sel1 0 0
+force -freeze sim:/ALU/in1 10101010000000000000000000000000 0
+force -freeze sim:/ALU/Shift 000011 0
+run
+
+
+force -freeze sim:/ALU/Shift 000110 0
+run
+
+

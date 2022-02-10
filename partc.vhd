@@ -1,0 +1,156 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity partc is
+GENERIC (n : integer := 32);
+port( A: IN std_logic_vector (n-1 DOWNTO 0);
+      Shift: IN std_logic_vector (5 DOWNTO 0);
+      S0: IN std_logic;
+      S1: IN std_logic;
+      Cout: OUT std_logic;
+      F: OUT std_logic_vector (n-1 DOWNTO 0));
+end partc;
+
+ARCHITECTURE  archc OF partc IS
+BEGIN
+     	 
+   F <= "0" & A(31 DOWNTO 1)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "000001"
+        ELSE "00" & A(31 DOWNTO 2)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "000010"
+        ELSE "000" & A(31 DOWNTO 3)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "000011"
+        ELSE "0000" & A(31 DOWNTO 4)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "000100"
+	ELSE "00000" & A(31 DOWNTO 5)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "000101"
+	ELSE "000000" & A(31 DOWNTO 6)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "000110"
+	ELSE "0000000" & A(31 DOWNTO 7)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "000111"
+	ELSE "00000000" & A(31 DOWNTO 8)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "001000"
+	ELSE "000000000" & A(31 DOWNTO 9)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "001001" 
+	ELSE "0000000000" & A(31 DOWNTO 10)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "001010"
+        ELSE "00000000000" & A(31 DOWNTO 11)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "001011"
+        ELSE "000000000000" & A(31 DOWNTO 12)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "001100"
+	ELSE "0000000000000" & A(31 DOWNTO 13)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "001101"
+	ELSE "00000000000000" & A(31 DOWNTO 14)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "001110"
+	ELSE "000000000000000" & A(31 DOWNTO 15)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "001111"
+	ELSE "0000000000000000" & A(31 DOWNTO 16)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "010000"
+	ELSE "00000000000000000" & A(31 DOWNTO 17)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "010001"
+	ELSE "000000000000000000" & A(31 DOWNTO 18)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "010010"
+        ELSE "0000000000000000000" & A(31 DOWNTO 19)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "010011"
+        ELSE "00000000000000000000" & A(31 DOWNTO 20)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "010100"
+	ELSE "000000000000000000000" & A(31 DOWNTO 21)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "010101"
+	ELSE "0000000000000000000000" & A(31 DOWNTO 22)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "010110"
+	ELSE "00000000000000000000000" & A(31 DOWNTO 23)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "010111"
+	ELSE "000000000000000000000000" & A(31 DOWNTO 24)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "011000"
+	ELSE "0000000000000000000000000" & A(31 DOWNTO 25)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "011001" 
+	ELSE "00000000000000000000000000" & A(31 DOWNTO 26)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "011010"
+        ELSE "000000000000000000000000000" & A(31 DOWNTO 27)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "011011"
+        ELSE "0000000000000000000000000000" & A(31 DOWNTO 28)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "011100"
+	ELSE "00000000000000000000000000000" & A(31 DOWNTO 29)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "011101"
+	ELSE "000000000000000000000000000000" & A(31 DOWNTO 30)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "011110"
+	ELSE "0000000000000000000000000000000" & A(31 DOWNTO 31)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "011111"
+	ELSE (others => '0')  WHEN   S0 = '0' AND S1 = '0'    
+
+
+	ELSE A(30 DOWNTO 0) & "0"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "000001"
+        ELSE A(29 DOWNTO 0) & "00"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "000010"
+	ELSE A(28 DOWNTO 0) & "000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "000011"
+	ELSE A(27 DOWNTO 0) & "0000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "000100"
+	ELSE A(26 DOWNTO 0) & "00000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "000101"
+	ELSE A(25 DOWNTO 0) & "000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "000110"
+	ELSE A(24 DOWNTO 0) & "0000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "000111"
+	ELSE A(23 DOWNTO 0) & "00000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "001000"
+	ELSE A(22 DOWNTO 0) & "000000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "001001"
+	ELSE A(21 DOWNTO 0) & "0000000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "001010"
+	ELSE A(20 DOWNTO 0) & "00000000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "001011"
+	ELSE A(19 DOWNTO 0) & "000000000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "001100"
+	ELSE A(18 DOWNTO 0) & "0000000000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "001101"
+	ELSE A(17 DOWNTO 0) & "00000000000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "001110"
+	ELSE A(16 DOWNTO 0) & "000000000000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "001111"
+	ELSE A(15 DOWNTO 0) & "0000000000000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "010000"
+	ELSE A(14 DOWNTO 0) & "00000000000000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "010001"
+        ELSE A(13 DOWNTO 0) & "000000000000000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "010010"
+	ELSE A(12 DOWNTO 0) & "0000000000000000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "010011"
+	ELSE A(11 DOWNTO 0) & "00000000000000000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "010100"
+	ELSE A(10 DOWNTO 0) & "000000000000000000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "010101"
+	ELSE A(9 DOWNTO 0) & "0000000000000000000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "010110"
+	ELSE A(8 DOWNTO 0) & "00000000000000000000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "010111"
+	ELSE A(7 DOWNTO 0) & "000000000000000000000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "011000"
+	ELSE A(6 DOWNTO 0) & "0000000000000000000000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "011001"
+	ELSE A(5 DOWNTO 0) & "00000000000000000000000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "011010"
+	ELSE A(4 DOWNTO 0) & "000000000000000000000000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "011011"
+	ELSE A(3 DOWNTO 0) & "0000000000000000000000000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "011100"
+	ELSE A(2 DOWNTO 0) & "00000000000000000000000000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "011101"
+	ELSE A(1 DOWNTO 0) & "000000000000000000000000000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "011110"
+	ELSE A(0 DOWNTO 0) & "0000000000000000000000000000000"  WHEN   S0 = '1' AND S1 = '0' AND Shift = "011111"
+        ELSE (others => '0')  WHEN   S0 = '1' AND S1 = '0';
+
+        
+   Cout <= A(0)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "000001" 
+	ELSE A(1)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "000010"
+        ELSE A(2)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "000011"
+        ELSE A(3)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "000100"
+	ELSE A(4)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "000101"
+	ELSE A(5)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "000110"
+	ELSE A(6)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "000111"
+	ELSE A(7)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "001000"
+	ELSE A(8)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "001001" 
+	ELSE A(9)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "001010"
+        ELSE A(10)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "001011"
+        ELSE A(11)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "001100"
+	ELSE A(12)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "001101"
+	ELSE A(13)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "001110"
+	ELSE A(14)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "001111"
+	ELSE A(15)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "010000"
+	ELSE A(16)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "010001"
+	ELSE A(17)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "010010"
+        ELSE A(18)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "010011"
+        ELSE A(19)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "010100"
+	ELSE A(20)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "010101"
+	ELSE A(21)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "010110"
+	ELSE A(22)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "010111"
+	ELSE A(23)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "011000"
+	ELSE A(24)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "011001" 
+	ELSE A(25)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "011010"
+        ELSE A(26)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "011011"
+        ELSE A(27)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "011100"
+	ELSE A(28)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "011101"
+	ELSE A(29)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "011110"
+	ELSE A(30)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "011111"
+	ELSE A(31)  WHEN   S0 = '0' AND S1 = '0' AND Shift = "100000"
+	ELSE '0'  WHEN   S0 = '0' AND S1 = '0'
+
+
+	ELSE A(31)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "000001"
+	ELSE A(30)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "000010"
+        ELSE A(29)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "000011"
+        ELSE A(28)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "000100"
+	ELSE A(27)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "000101"
+	ELSE A(26)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "000110"
+	ELSE A(25)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "000111"
+	ELSE A(24)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "001000"
+	ELSE A(23)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "001001" 
+	ELSE A(22)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "001010"
+        ELSE A(21)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "001011"
+        ELSE A(20)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "001100"
+	ELSE A(19)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "001101"
+	ELSE A(18)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "001110"
+	ELSE A(17)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "001111"
+	ELSE A(16)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "010000"
+	ELSE A(15)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "010001"
+	ELSE A(14)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "010010"
+        ELSE A(13)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "010011"
+        ELSE A(12)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "010100"
+	ELSE A(11)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "010101"
+	ELSE A(10)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "010110"
+	ELSE A(9)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "010111"
+	ELSE A(8)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "011000"
+	ELSE A(7)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "011001" 
+	ELSE A(6)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "011010"
+        ELSE A(5)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "011011"
+        ELSE A(4)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "011100"
+	ELSE A(3)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "011101"
+	ELSE A(2)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "011110"
+	ELSE A(1)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "011111"
+	ELSE A(0)  WHEN   S0 = '1' AND S1 = '0' AND Shift = "100000"
+	ELSE '0'  WHEN   S0 = '1' AND S1 = '0';
+
+
+END archc;
